@@ -15,8 +15,8 @@ async def start(client, update):
     reply_markup =  InlineKeyboardMarkup(
                                          [[
         InlineKeyboardButton("help↗️", callback_data="heroku"),
-        InlineKeyboardButton("🗣️Group", url="t.me/mo_tech_Group"),
-        InlineKeyboardButton("Channel📢", url="t.me/mo_tech_yt")
+        InlineKeyboardButton("🗣️Group", url="t.me/ff_new_movies_group"),
+        InlineKeyboardButton("Our Bot📢", url="t.me/Rocky_boy_Bot")
         ]]
     )
     await update.reply_text(
